@@ -1,0 +1,33 @@
+# # # import pyautogui
+# # # screenWidth, screenHeight = pyautogui.size()
+# # # print('{0},{1}'.format(screenWidth,screenHeight))
+
+# import pyautogui
+# mouseX,mouseY=pyautogui.position()
+# print('{0},{1}'.format(mouseX,mouseY))
+
+# # import pyautogui
+# # import time
+
+# # time.sleep(1)
+# # pyautogui.click(x=1858, y=932)
+# # pyautogui.click(x=1858, y=932)
+# # time.sleep(5)
+# # pyautogui.click(x=1002, y=563)
+# # pyautogui.write('a6020933', 0.1)
+# # time.sleep(1)
+# # pyautogui.click(x=1010, y=590)
+# # pyautogui.write('09330933', 0.1)
+# # time.sleep(1)
+# # pyautogui.click(x=1082, y=574)
+# # time.sleep(1)
+# # pyautogui.click(x=1856, y=843)
+# # pyautogui.click(x=1856, y=843)
+import pyautogui
+import time
+
+
+
+mouseX,mouseY=pyautogui.position()
+print('{0},{1}'.format(mouseX,mouseY))
+#(x=950, y=185)

@@ -1,0 +1,18 @@
+List = []
+a=200
+if a < 100:
+        List.append(a)
+else:
+        hans_list = []
+        for i in range(len(str(a))-1): 
+            print(len(str(a)))
+            hans_list.append(int(str(a)[i+1]) - int(str(a)[i]))
+            print(int(str(a)[i+1]),int(str(a)[i]))
+            print(i)
+        hans_list.sort()
+        if hans_list[0] == hans_list[len(hans_list)-1]:
+            List.append(a)
+            print(a)
+       
+          
+

@@ -1,0 +1,20 @@
+# import sys
+# # sys.stdin.readline
+# # sys.stdin.readline
+# T=int(sys.stdin.readline())
+# lst =[]
+# lst2 =[]
+# lst3 =[]
+# lst4 =[]
+# for i in range(T):
+#   a, b=map(int,sys.stdin.readline().split())
+#   lst.append(a)
+#   lst2.append("+")
+#   lst3.append(b)
+#   lst4.append(a+b)
+  
+T=int(input()) 
+sum=0 
+for i in range(T):
+  sum += 1
+  print(f"Case #{sum}: {lst[i]} {lst2[i]} {lst3[i]} = {lst4[i]}")
